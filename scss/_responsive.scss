@@ -1,0 +1,17 @@
+$flex:flex;
+
+.navbar {
+    display:$flex;
+    justify-content:flex-end !important;
+    flex-wrap:nowrap;
+}
+
+.nav-link{
+    display:$flex;
+    justify-content:flex-end !important;
+}
+
+.body{
+    padding: auto;
+}
+

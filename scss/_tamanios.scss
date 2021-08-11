@@ -1,0 +1,84 @@
+/* $parrafoDesktop:; */
+/* $parrafoMobile:; */
+$principal__titulo--tamanioDesktop:3.5rem;
+$principal__titulo--tamanioMobile:2rem;
+$icoFoo:2rem;
+$encabezadoSty:1.8rem;
+$titulo__encabezado--tamanio:1.5rem;
+$cuadriculas__body--tamanio:1.5rem;
+$btn-primary:1.5rem;
+$jumbotron__display--tamanio:4rem;
+$jumbotron__lead--tamanio:2.5rem;
+$jumbotron__lead2--tamanio:1.8rem;
+$carousel--Txt:5rem;
+$nav-link:1.8rem; 
+$cuadriculas__texto--tamanio:1.5rem;
+$cuadriculas__titulo--tamanio:1.8rem;
+$subtitulo__page--tamanio:2.5rem;
+/*Nosotros*/
+$cuadricula__subtnosotros--tamanio:1rem;
+/*servicios*/
+$parrafo__servicios--tamanio:1.8rem;
+$cuadricula__servicios--tamanio:2rem;
+$subtitulo__seguridad--tamanio:2rem;
+$card__seguridad--tamanio:1.5rem;
+/*contacto*/
+$formulario__texto--tamanio:1.5rem;
+/*ayuda*/
+$accordion__titulo--tamanio:1.8rem;
+$accordion__texto--tamanio:1.8rem;
+
+
+
+.principal__titulo--tamanio{
+    font-size:$principal__titulo--tamanioDesktop;
+    @media only screen and (max-widht:767px){font-size:$principal__titulo--tamanioMobile;}
+}
+.icoFoo{font-size:$icoFoo;}
+.titulo__encabezado--tamanio{font-size:$titulo__encabezado--tamanio;}
+.cuadriculas__titulo--tamanio{font-size:$cuadriculas__titulo--tamanio;} 
+.cuadriculas__body--tamanio{font-size:$cuadriculas__body--tamanio;}
+.cuadriculas__texto--tamanio{font-size:$cuadriculas__texto--tamanio;}
+.btn-primary{font-size:$btn-primary;}
+.jumbotron__display--tamanio{font-size:$jumbotron__display--tamanio;}
+.jumbotron__lead--tamanio{font-size:$jumbotron__lead--tamanio;}
+.jumbotron__lead2--tamanio{font-size:$jumbotron__lead2--tamanio;}
+.carousel--Txt{font-size:$carousel--Txt;}
+.nav-link{font-size:$nav-link;}
+.subtitulo__page--tamanio{font-size:$subtitulo__page--tamanio;}
+
+
+/*NOSOTROS*/
+
+.cuadricula__subtnosotros--tamanio{font-size:$cuadricula__subtnosotros--tamanio;}
+
+
+.cuerpoNosotros{
+    width:50%*2;
+}
+
+.row{
+    width: (25% + 25%) *2;
+}
+
+
+@mixin sizes($width, $height){
+    width:$width;
+    height:$height;
+}
+
+/*SERVICIOS*/
+
+.parrafo__servicios--tamanio{font-size:$parrafo__servicios--tamanio;}
+.cuadricula__servicios--tamanio{font-size:$cuadricula__servicios--tamanio;}
+.subtitulo__seguridad--tamanio{font-size:$subtitulo__seguridad--tamanio;}
+.card__seguridad--tamanio{font-size:$card__seguridad--tamanio;}
+
+/*contacto*/
+.formulario__texto--tamanio{font-size:$formulario__texto--tamanio;}
+
+/*ayuda*/
+
+.accordion__titulo--tamanio{font-size:$accordion__titulo--tamanio;}
+
+.accordion__texto--tamanio{font-size:$accordion__texto--tamanio !important;}
